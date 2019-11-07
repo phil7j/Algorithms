@@ -4,7 +4,7 @@ import math
 
 
 def recipe_batches(recipe, ingredients):
-    # If there's more required than there are in the ingredients, it won't be able to make any batches, so 0
+    # If theres more required than there are in the ingredients, it won't be able to make any batches, so 0
     if len(recipe) > len(ingredients):
         return 0
     # loop thorugh recipe, match the values from both dicitonaries, and divide the ingredients by the recipe to find how many times it can go in.
